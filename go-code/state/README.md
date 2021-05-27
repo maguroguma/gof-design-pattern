@@ -12,5 +12,11 @@
   - 「オープンクローズドの原則」の遵守につながる。
 - メモリ節約のため、結城先生の本ではSingletonパターンが採用されているが、これは一旦忘れても良いかも？
   - Singletonパターンは忘れても良いとされているが、正直ちょこちょこ見かける気がする。。
-- 結城先生の例はGUIでちょっと複雑なので、ここは[monochromegane/go_design_pattern](https://github.com/maguroguma/go_design_pattern/tree/master/state)から例を拝借する。
+- 結城先生の例はGUIでちょっと複雑なので、ここは[monochromegane/go_design_pattern](https://github.com/monochromegane/go_design_pattern/tree/master/state)から例を拝借する。
   - また、 `dayState, nightState` はそれぞれSingletonパターンも採用しているが、自分のコード例ではStateパターンに集中したいので、あえて都度ポインタ型でインスタンスを生成するようにしている。
+- サンプルを写経してから思ったが、Contextをわざわざインタフェースにする必要はあるのだろうか？
+  - 最初から具象クラスでContextを表現してしまってもいい気がする。
+    - 実際、[TECHSCOREさんのStateパターンの例](https://www.techscore.com/tech/DesignPattern/State.html/)では、Contextは具象クラスしか用意していない。
+  - どうも、Contextの具象クラスが他のクラスも継承する必要がある場合に難がある可能性があるっぽい？
+    - いきなりinterfaceまで抽象化する必要はないのかもしれないが、「原典ではContextもinterfaceである」ということは認識しておく。
+- **結論: Stateパターンは結構複雑で難しい。**
