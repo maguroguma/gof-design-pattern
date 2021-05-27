@@ -10,3 +10,7 @@
   - よくよく考えると**「利用者はProxyの存在など意識しない」**。
 - メソッドがRequest、問い合わせ先がSubject（主体）だったりする部分は重要。
   - SubjectよりはRespondentとかのほうがいい気もするけど。
+
+## クラス図
+
+![](../images/proxy.jpg)

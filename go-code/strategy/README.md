@@ -10,3 +10,9 @@
   - じゃんけんの戦略をStrategyパターンにすれば、Template Methodとは異なったものになる。
 - 結城先生の本によると、「Template Methodパターンは継承を、Strategyパターンは委譲を用いる」という点自体が大きな特徴である、とのこと。
   - 実用上は忘れても構わないかもしれない。
+
+## クラス図
+
+![](../images/strategy.jpg)
+
+![](../images/template_method.jpg)
