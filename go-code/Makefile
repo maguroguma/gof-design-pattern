@@ -1,12 +1,14 @@
 .PHONY: test-all-patterns
 test-all-patterns:
-	go test ./strategy
-	go test ./factory_method
 	go test ./adapter
-	go test ./prototype
 	go test ./builder
-	go test -v ./composite
-	go test ./facade
-	go test ./state
-	go test -v ./proxy
 	go test -v ./command
+	go test -v ./composite
+	go test ./decorator
+	go test ./facade
+	go test ./factory_method
+	go test ./observer
+	go test ./prototype
+	go test -v ./proxy
+	go test ./state
+	go test ./strategy
