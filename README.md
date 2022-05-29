@@ -60,3 +60,7 @@
   - 特に、Goにおける構造体・インターフェースの埋め込みによる実装パターンの勉強にもなる。
 - [TECHSCOREさんのデザインパターン](https://www.techscore.com/tech/DesignPattern/index.html/)
   - 別の例でイメージをふくらませるために活用させていただいた。
+- [GoFデザインパターンチートシート](https://qiita.com/tanakahisateru/items/df03d2558f9499d1a64a)
+  - 示唆に富んでいる。
+- [フロントエンドのデザインパターン](https://zenn.dev/morinokami/books/learning-patterns-1)
+  - オリジンは[この英語のページ](https://www.patterns.dev/)
