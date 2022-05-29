@@ -1,7 +1,7 @@
 # Prototype
 
 - 「インスタンスが、自身のコピーを作れる（clonable）」というところに主眼がある。
-  - じゃあ「Clonableパターン」とかのほうがしっくりくるのでは？とか思ってしまった。
+  -  **「じゃあ「Clonableパターン」とかのほうがしっくりくるのでは？」** とか思ってしまった。
     - Prototype（試作品）からはcloneっぽさをあまり感じないので。。
 - interfaceやその利用者の関係はシンプル。
 - やはりFactory Methodと同じく、いきなり抽象化するのは難しいのではないか？と思う。
@@ -13,3 +13,10 @@
 ## クラス図
 
 ![](../images/prototype.jpg)
+
+## [フロントエンドのデザインパターン: プロトタイプパターン](https://zenn.dev/morinokami/books/learning-patterns-1/viewer/prototype-pattern)
+
+- JSのプロトタイプチェーンが紹介されている
+  - GoFのプロトタイプパターンとは別物では？？？
+
+やっぱりこのパターンの使い道がよくわからん。
